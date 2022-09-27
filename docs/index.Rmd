@@ -1,0 +1,174 @@
+---
+title: "Data Science Portfolio"
+output: 
+   html_document:
+      css: style.css
+      theme: readable
+      highlight: pygments
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+   echo = TRUE, 
+   message = FALSE, 
+   warning = FALSE, 
+   paged.print = FALSE
+)
+```
+
+<body style="background-color:#f3f4ee;">
+
+The following is a sample of recent data science projects I have completed. More examples of data science work can be found on my <a href="https://github.com/rich1707" target="_blank">GitHub</a>. Please feel free to get in touch for more examples of completed projects. 
+
+
+# Football Results Model
+
+Github Pages: <a href="https://rich1707.github.io/Football-Model/" target="_blank">Football Model</a>
+
+A football model that attempts to predict matches more accurately than the bookmakers. Although this is an ambitious task, our model does well enough to turn a profit in all years except one. 
+
+* Collected data from various sources
+* Cleaned the data and performed exploratory data analysis
+* Performed extensive feature engineering
+* Built a model using Poisson Regression
+* Wrote a function converting the output of the regression model into probabilities
+* Evaluated the performance of the model by comparing our probabilities with the available betting odds
+
+# Customer Churn Model
+
+Github Pages: <a href="https://rich1707.github.io/Customer-Churn/" target="_blank">Customer Churn Model</a>
+
+
+
+An xgboost model that attempts to predict customer churn. This is a difficult problem because the data is always highly imbalanced; but on the performance metrics most often used in this kind of problem our model performs well. 
+
+* Cleaned the data
+* Performed extensive exploratory data analysis
+* Performed feature engineering that significantly improved performance
+* Tuned the hyper-parameters of our model
+* Built an xgboost model based upon the above hyper-parameters
+* Evaluated the model on the most relevant performance metrics for this kind of problem
+
+# Dashboards and Web Apps
+
+ShinyApps Link: <a href="https://rich1707.shinyapps.io/AmesShinyApp/?_ga=2.179421860.1089996046.1663714769-851280862.1663515719" target="_blank">Ames Housing Dashboard</a>
+
+
+
+Here I built a charting app to compare various data transformations on data from the Ames Housing Dataset. This is an app built to complement my analysis on the Ames Housing dataset which can be found <a href="https://rich1707.github.io/AmesHousing/" target="_blank">here</a>
+
+# Project Euler
+
+These two projects deals with some of the simpler problem available on <a href="https://projecteuler.net/" target="_blank">Project Euler</a>.
+
+### Project Euler 1
+
+Github Pages: <a href="https://rich1707.github.io/Project-Euler-1/" target="_blank">Ten Problems from Project Euler</a>
+
+
+
+
+* Solved problems in basic number theory
+* Used various `R` packages not found in most data science workflows
+* Practised using `for`, `while` and `repeat` loops in a mathematical setting
+
+### Project Euler 2
+
+Github Pages: <a href="https://rich1707.github.io/Project-Euler-miscellaneous/" target="_blank">Ten More Problems from Project Euler</a>
+
+
+
+* Used string manipulation to solve problems in problems related to number theory
+* Solved date-time problems using the `clock` package
+* Practised dealing with very large numbers in `R`
+
+# Tidy Tuesday Projects
+
+Here we have two projects from the <a href="https://github.com/rfordatascience/tidytuesday" target="_blank">TidyTuesday Repository</a>. The first deals with Political Rights and Civil Liberties, and the second with Bee Populations. 
+
+### Political Rights and Civil Liberties
+
+Github Pages: <a href="https://rich1707.github.io/Freedom-Index/" target="_blank">Freedom and Civil Liberties</a>
+
+
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Combining two datasets so we can better explore the relationship between them.
+* Hypothesis testing
+* Building a model to predict political freedoms and civil liberties from basic economic data
+* Evaluate our model's performance and identify the most important predictors
+
+### Bee Populations
+
+Github Pages: <a href="https://rich1707.github.io/Bee-Populations/" target="_blank">Bee Populations</a>
+
+
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Extensive Hypothesis Testing
+
+# Kaggle Projects
+
+These projects concern two very widely known beginner-level datasets. The Titanic dataset is interesting because it is necessary to perform extensive feature-engineering to achieve a decent result - in fact all of the most important features in our final model are ones we have engineered from the ground up. 
+
+The Ames Housing data set also requires extensive feature engineering, although in this case it is more about performing transformations and dimensionality reduction. The ShinyApp found <a href="https://rich1707.shinyapps.io/AmesShinyApp/?_ga=2.179421860.1089996046.1663714769-851280862.1663515719" target="_blank">here</a> was very helpful in this regard.
+
+### Titanic Dataset
+
+Github Pages: <a href="https://rich1707.github.io/Titanic/" target="_blank">Survival on the Titanic</a>
+
+
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Extensive Feature Engineering
+* Hyper-parameter tuning
+* Train a Random Forest model
+* Evaluate the results for accuracy and also consider feature importance
+
+### Ames Housing Dataset
+
+Github Pages: <a href="https://rich1707.github.io/AmesHousing/" target="_blank">Predicting House Prices in Ames</a>
+
+
+
+* Data Cleaning
+* Extensive Data Imputation for missing values
+* Exploratory Data Analysis
+* Feature Engineering and Dimensionality Reduction
+* Hyper-parameter tuning of a `glmnet` model
+* Evaluating the results and extracting feature importance. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
